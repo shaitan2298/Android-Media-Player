@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="prefName"
+        android:inputType="text"
+        android:title="Name"
+        android:summary="Ankita Dutta"/>
+    <EditTextPreference
+        android:key="prefUsername"
+        android:inputType="text"
+        android:title="Username"
+        android:summary="Ankita123"/>
+    <EditTextPreference
+        android:key="prefPassword"
+        android:inputType="textPassword"
+        android:title="Password"
+        android:summary="Ankita$123"/>
+    <EditTextPreference
+        android:key="prefFav"
+        android:inputType="text"
+        android:title="Favourite Song"
+        android:summary="Raabta"/>
+</PreferenceScreen>

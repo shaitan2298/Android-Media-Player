@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="prefColor"
+        android:title="Background Color"
+        android:summary="Select background color"
+        android:entries="@array/favcolor"
+        android:entryValues="@array/favcolor"/>
+    <SwitchPreference
+        android:key="prefWifi"
+        android:title="Wifi"
+        android:summary="Connect to Wifi"/>
+    <SwitchPreference
+        android:key="prefData"
+        android:title="Data"
+        android:summary="Connect to Mobile Data"/>
+
+</PreferenceScreen>
